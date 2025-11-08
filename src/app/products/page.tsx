@@ -29,7 +29,7 @@ const ProductsPage = () => {
       title: "Texture Work",
       subtitle: "Lime wash, lime plaster & Birla Opus inspired finishes",
       description: "Layered lime systems, micro-textures, and bespoke colour stories bring walls to life with breathable, low-VOC elegance.",
-      image: "/images/demo-texture-service-1.svg",
+      image: "/images/texturepaint.jpg",
       features: [
         "Surface diagnostics and substrate preparation",
         "Custom mock-ups for tone and texture depth",
@@ -47,7 +47,7 @@ const ProductsPage = () => {
       title: "Decorative Paint",
       subtitle: "Metallic, suede, and artistic paint techniques",
       description: "Statement walls with metallic sheens, suede softness, or textured glazes executed with precision masking and layering.",
-      image: "/images/demo-texture-service-2.svg",
+      image: "/images/decorativepaint.jpg",
       features: [
         "Colour and moodboard consultation",
         "Laser-guided masking for crisp detailing",
@@ -65,7 +65,7 @@ const ProductsPage = () => {
       title: "Wood Polish",
       subtitle: "PU, melamine & oil finishes for timber",
       description: "Rich polish systems that enhance grain, deliver smooth touch, and protect cabinetry, panelling, and doors.",
-      image: "/images/demo-texture-service-3.svg",
+      image: "/images/woodcoating2.jpg",
       features: [
         "Dust-free sanding and prep protocols",
         "Shade matching to veneer and laminate",
@@ -101,7 +101,7 @@ const ProductsPage = () => {
       title: "Stucco Finish",
       subtitle: "Venetian plaster & microcement",
       description: "Multi-layer stucco and microcement finishes burnished to a luminous sheen for luxury interiors and feature ceilings.",
-      image: "/images/demo-texture-service-5.svg",
+      image: "/images/stucco.jpg",
       features: [
         "Multi-coat application for depth and strength",
         "Hand-burnished surfaces for natural movement",

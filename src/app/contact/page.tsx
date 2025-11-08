@@ -63,12 +63,7 @@ const ContactPage = () => {
       details: ["Sardar Rajmarg Road", "Anand - 388001, Gujarat"],
       description: "Studio visits by appointment"
     },
-    {
-      icon: Clock,
-      title: "Site Timings",
-      details: ["Monday - Saturday: 9:00 AM - 7:00 PM", "Sunday: On Appointment"],
-      description: "On-site supervision across Gujarat"
-    }
+    
   ];
 
   const offices = [

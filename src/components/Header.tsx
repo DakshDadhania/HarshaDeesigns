@@ -83,7 +83,7 @@ const Header = () => {
             >
               <div className="relative">
                 <img 
-                  src="/images/logo-texture-demo.svg" 
+                  src="/images/logo.jpg" 
                   alt="Harsha Deesigns Logo"
                   className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl object-contain shadow-lg group-hover:shadow-xl transition-shadow duration-300"
                 />

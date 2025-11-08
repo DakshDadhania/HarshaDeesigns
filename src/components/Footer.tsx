@@ -66,7 +66,7 @@ const Footer = () => {
           >
             <div className="flex items-center space-x-2 sm:space-x-3 mb-4 sm:mb-6">
               <img 
-                src="/images/logo-texture-demo.svg" 
+                src="/images/logo.jpg" 
                 alt="Harsha Deesigns Logo"
                 className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl object-contain shadow-lg"
               />

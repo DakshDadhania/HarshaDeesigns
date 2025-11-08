@@ -294,7 +294,7 @@ const AboutPage = () => {
               >
                 <div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
                   <img 
-                    src="/images/demo-texture-service-2.svg" 
+                    src="/images/texture4.jpg" 
                     alt="Harsha Deesigns artisans crafting wall textures"
                     className="w-full h-full object-cover"
                   />

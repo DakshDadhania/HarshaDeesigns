@@ -21,7 +21,7 @@ const HeroSection = () => {
       title: "All About Wall Textures",
       subtitle: "Elevating walls with timeless handcrafted finishes",
       description: "Harsha Deesigns crafts bespoke texture walls inspired by Birla Opus collections, blending artisanal techniques with contemporary palettes for luxury residences and commercial spaces.",
-      image: "/images/demo-texture-hero-1.svg",
+      image: "/images/texture1.jpg",
       cta: "View Texture Services",
       ctaLink: "/products"
     },
@@ -30,7 +30,7 @@ const HeroSection = () => {
       title: "Textures From Nature",
       subtitle: "Earthy lime wash, clay textures, and mineral stories",
       description: "From breathable lime plaster to tactile stucco, we reinterpret nature's gradients for interior and exterior walls, pairing premium Birla Opus materials with meticulous surface prep.",
-      image: "/images/demo-texture-hero-2.svg",
+      image: "/images/texture2.jpg",
       cta: "Discover Our Craft",
       ctaLink: "/about"
     },
@@ -39,7 +39,7 @@ const HeroSection = () => {
       title: "Luxury Finish Specialists",
       subtitle: "Stucco, DUCO, decorative paint, and wood polish",
       description: "Since 2007 we have delivered signature finishes across Gujarat, combining heritage craftsmanship with modern tools for turnkey on-site execution and aftercare guidance.",
-      image: "/images/demo-texture-hero-3.svg",
+      image: "/images/texture3.jpg",
       cta: "Book a Consultation",
       ctaLink: "/contact"
     }
