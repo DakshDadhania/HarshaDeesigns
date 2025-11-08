@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Harsha Deesigns placeholder logo">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="24" fill="url(#grad)" />
+  <text x="50%" y="56%" dominant-baseline="middle" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="28" fill="#ffffff" letter-spacing="2">HD</text>
+  <text x="50%" y="76%" dominant-baseline="middle" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#d1fae5">EST 2007</text>
+</svg>
+

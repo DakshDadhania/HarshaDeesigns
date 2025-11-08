@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Textured lime wash gradient">
+  <defs>
+    <linearGradient id="hero1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#155e75" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <pattern id="grain1" patternUnits="userSpaceOnUse" width="80" height="80">
+      <circle cx="12" cy="18" r="1.5" fill="#0f172a" opacity="0.15" />
+      <circle cx="52" cy="42" r="1" fill="#0f172a" opacity="0.18" />
+      <circle cx="30" cy="68" r="1.2" fill="#0f172a" opacity="0.12" />
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#hero1)" />
+  <rect width="1600" height="900" fill="url(#grain1)" opacity="0.35" />
+</svg>
+
