@@ -20,7 +20,7 @@ const AboutSection = () => {
   const whyChooseUs = [
     {
       title: "Interior & Exterior Mastery",
-      description: "Lime wash, lime plaster, stucco, and protective exterior coatings tailored to Gujarat's climate conditions.",
+      description: "Regular to stone finish textures, protective exterior coatings tailored to Gujarat's climate conditions.",
       icon: Shield
     },
     {
@@ -54,7 +54,7 @@ const AboutSection = () => {
             About <span className="bg-gradient-to-r from-green-500 to-emerald-600 bg-clip-text text-transparent">Harsha Deesigns</span>
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            Established in 2007, Harsha Deesigns curates handcrafted wall textures, lime finishes, decorative paints, and wood polishes that elevate spaces with timeless character and artisanal precision.
+            Welcome to Harsha Deesigns—a creative studio dedicated to transforming your spaces with artful wall textures, luxurious paints, and impeccable surface finishes. Specializing in everything from authentic lime plaster and earth-inspired clay washes to distinctive stucco, wood polish, and premium duco paint, we blend nature's aesthetics with modern craftsmanship to craft interiors and exteriors that are both beautiful and durable. Every project is thoughtfully tailored, using the finest materials, advanced techniques, and meticulous preparation for remarkable results that last. Whether you desire subtle elegance or bold character, Harsha Deesigns promises innovation, quality, and fascination in every detail.
           </p>
         </motion.div>
 
@@ -77,7 +77,7 @@ const AboutSection = () => {
               </div>
             </div>
             <p className="text-slate-600 text-lg leading-relaxed">
-              To shape evocative spaces where textured surfaces tell stories— marrying heritage craft techniques with modern palettes inspired by Birla Opus collections for enduring, personalised environments.
+              Our vision is to be the most trusted name in surface artistry, setting new benchmarks for texture, quality, and innovation—shaping inspiring environments where every wall tells a story and Harsha Deesigns stands for excellence, creativity, and enduring value. Crafting visually stunning and long-lasting wall textures and decorative finishes for inspired spaces.
             </p>
           </motion.div>
 
@@ -98,7 +98,7 @@ const AboutSection = () => {
               </div>
             </div>
             <p className="text-slate-600 text-lg leading-relaxed">
-              To deliver bespoke texture solutions with meticulous surface preparation, premium materials, and disciplined site execution—ensuring every wall reflects the client's lifestyle and stands up to daily use.
+              To deliver exceptional quality and innovative designs in every project, transforming everyday walls into extraordinary art.
             </p>
           </motion.div>
         </div>
@@ -140,7 +140,7 @@ const AboutSection = () => {
             Why Choose <span className="bg-gradient-to-r from-green-500 to-emerald-600 bg-clip-text text-transparent">Harsha Deesigns</span>?
           </h3>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            We translate texture inspiration into enduring surfaces through curated materials, sample-based approvals, and disciplined craftsmanship on every site across Gujarat.
+            Truly exceptional designs and an unwavering commitment to client satisfaction—our artisanal textures, innovative finishes, and tailored service ensure that every space not only stands out, but also perfectly reflects your vision, with lasting quality and personal care at every step.
           </p>
         </motion.div>
 

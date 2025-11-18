@@ -1,13 +1,35 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { MessageCircle, X } from "lucide-react";
 
 const WhatsAppButton = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [showOnlineStatus, setShowOnlineStatus] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
   const phoneNumber = "+917283998801";
   const defaultMessage = "Hello! I'm interested in Harsha Deesigns wall textures. Could we schedule a consultation?";
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      
+      // Show popup when at top (within 100px)
+      if (currentScrollY < 100) {
+        setShowOnlineStatus(true);
+      } 
+      // Hide popup when scrolling down
+      else if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        setShowOnlineStatus(false);
+      }
+      
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [lastScrollY]);
 
   const handleWhatsAppClick = () => {
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(defaultMessage)}`;
@@ -64,7 +86,8 @@ const WhatsAppButton = () => {
               </div>
               <button
                 onClick={() => setIsOpen(false)}
-                className="text-white hover:bg-white/20 p-1 rounded-full transition-colors duration-300 touch-target"
+                className="text-white hover:bg-white/20 w-8 h-8 flex items-center justify-center rounded-full transition-colors duration-300 flex-shrink-0"
+                aria-label="Close chat"
               >
                 <X className="w-5 h-5" />
               </button>
@@ -147,24 +170,27 @@ const WhatsAppButton = () => {
       </motion.div>
 
       {/* Online Status - Mobile optimized */}
-      {!isOpen && (
-        <motion.div
-          initial={{ opacity: 0, x: 20 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ delay: 1.5 }}
-          className="fixed bottom-16 sm:bottom-20 right-4 z-40"
-        >
-          <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-3 max-w-44 sm:max-w-48">
-            <div className="flex items-center space-x-2">
-              <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-              <span className="text-sm font-medium text-gray-700">We're Online!</span>
+      <AnimatePresence>
+        {!isOpen && showOnlineStatus && (
+          <motion.div
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: 20 }}
+            transition={{ duration: 0.3 }}
+            className="fixed bottom-16 sm:bottom-20 right-4 z-40"
+          >
+            <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-3 max-w-44 sm:max-w-48">
+              <div className="flex items-center space-x-2">
+                <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+                <span className="text-sm font-medium text-gray-700">We're Online!</span>
+              </div>
+              <p className="text-xs text-gray-500 mt-1">
+                Click to chat with us
+              </p>
             </div>
-            <p className="text-xs text-gray-500 mt-1">
-              Click to chat with us
-            </p>
-          </div>
-        </motion.div>
-      )}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </>
   );
 };

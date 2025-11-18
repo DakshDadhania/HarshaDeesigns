@@ -37,7 +37,7 @@ const Footer = () => {
     {
       icon: Mail,
       title: "Email",
-      details: ["hello@harshadeesigns.in"]
+      details: ["hello.harshadeesigns@gmail.com"]
     },
     {
       icon: MapPin,

@@ -54,7 +54,7 @@ const ContactPage = () => {
     {
       icon: Mail,
       title: "Email Us",
-      details: ["hello@harshadeesigns.in"],
+      details: ["hello.harshadeesigns@gmail.com"],
       description: "We respond within one business day"
     },
     {
@@ -71,24 +71,24 @@ const ContactPage = () => {
       title: "Design Studio & Sample Library",
       address: "Sardar Rajmarg Road, Anand - 388001, Gujarat",
       phone: "+91 72839 98801",
-      email: "hello@harshadeesigns.in",
+      email: "hello.harshadeesigns@gmail.com",
       hours: "Mon-Sat: 10:00 AM - 6:00 PM",
-      mapLink: "https://maps.app.goo.gl/8Uzm4JpfhqB7M7dX7"
+      mapLink: "https://maps.app.goo.gl/Hayy4KYkqmjBwwHD8"
     },
     {
       title: "Project Coordination Desk",
       address: "On-site across Gujarat with central coordination from Anand",
       phone: "+91 87580 88805",
-      email: "projects@harshadeesigns.in",
+      email: "hello.harshadeesigns@gmail.com",
       hours: "Mon-Sat: 9:00 AM - 7:00 PM",
-      mapLink: "https://maps.app.goo.gl/8Uzm4JpfhqB7M7dX7"
+      mapLink: "https://maps.app.goo.gl/Hayy4KYkqmjBwwHD8"
     }
   ];
 
   return (
     <>
       <Header />
-      <main className="pt-32 md:pt-40">
+      <main className="pt-20 md:pt-24">
         {/* Hero Section */}
         <section className="relative bg-gradient-to-r from-green-500 to-emerald-600 text-white overflow-hidden">
           <div className="absolute inset-0 bg-black/20"></div>
@@ -327,7 +327,7 @@ const ContactPage = () => {
                     <p className="text-gray-600 font-medium mb-2">Visit Our Studio</p>
                     <p className="text-xs sm:text-sm text-gray-500 mb-3 sm:mb-4">Sardar Rajmarg Road, Anand - 388001</p>
                     <a 
-                      href="https://maps.app.goo.gl/8Uzm4JpfhqB7M7dX7"
+                      href="https://maps.app.goo.gl/Hayy4KYkqmjBwwHD8"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn-primary text-sm focus-ring"

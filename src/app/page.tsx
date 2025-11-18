@@ -8,7 +8,7 @@ export default function HomePage() {
   return (
     <>
       <Header />
-      <main className="pt-32 md:pt-40">
+      <main className="pt-20 md:pt-24">
         <HeroSection />
         <AboutSection />
       </main>

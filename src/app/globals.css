@@ -75,11 +75,12 @@
 @layer components {
   /* Button Components with proper touch targets */
   .btn-primary {
-    @apply bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-green-500/25;
+    @apply bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-green-500/25 transform hover:-translate-y-0.5;
     min-height: var(--touch-target-sm);
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 0.5rem;
   }
   
   .btn-secondary {

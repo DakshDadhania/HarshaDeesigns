@@ -18,9 +18,9 @@ const HeroSection = () => {
   const slides = [
     {
       id: 1,
-      title: "All About Wall Textures",
-      subtitle: "Elevating walls with timeless handcrafted finishes",
-      description: "Harsha Deesigns crafts bespoke texture walls inspired by Birla Opus collections, blending artisanal techniques with contemporary palettes for luxury residences and commercial spaces.",
+      title: "All About Textures",
+      subtitle: "Where protection meets fascination in every stroke",
+      description: "Transforming spaces with creative wall textures, vibrant decorative paints, and flawless wood finishes for interiors and exteriors that inspire.",
       image: "/images/texture1.jpg",
       cta: "View Texture Services",
       ctaLink: "/products"
@@ -49,7 +49,7 @@ const HeroSection = () => {
     {
       icon: Shield,
       title: "Material Mastery",
-      description: "Birla Opus-certified textures and finishes engineered for longevity"
+      description: "Harsha Deesigns delivers material mastery through its own manufacturing, using the finest particles of marbles for wall finishes and decorative textures—trusted by discerning clients and paired with renowned brands like Alltek for quality and durability in every surface"
     },
     {
       icon: Globe,
@@ -84,7 +84,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background Images */}
       <div className="absolute inset-0 z-0">
         {slides.map((slide, index) => (
